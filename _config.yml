@@ -23,7 +23,7 @@ links:
 # ============================================================
 accent_color: "#1a7a6d"      # theme color for links and buttons
 dark_mode: true              # show dark mode toggle in navbar
-description: ""
+description: "Academic website for Juan P. Roldan"
 baseurl: ""
 url: ""
 

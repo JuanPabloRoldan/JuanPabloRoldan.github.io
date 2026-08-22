@@ -4,36 +4,26 @@ layout: homelay
 sitemap: false
 permalink: /
 ---
-
 <h2 class="home-hero">{{ site.name }}</h2>
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
-
 <div class="chip-container" markdown="0">
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Quantum Electrodynamics</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Path Integrals</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Superfluidity</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Parton Model</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Quantum Computing</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Nanotechnology</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Multiphase Flows</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Shock&ndash;Droplet Interaction</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Cavitation</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Hypersonics</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Reduced-Order Modeling</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">GPU-Accelerated CFD</a>
 </div>
-
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
-
+High-speed vehicles rarely encounter clean air. Rain along a hypersonic flight path, fuel droplets in a detonating combustor, and particulate ingested by a scramjet inlet all introduce a second phase whose behavior sets the heat loads and mass transfer the vehicle actually experiences.
+When a shock passes over a droplet, the droplet deforms, develops surface instabilities, and breaks apart over microseconds — and the details of that breakup are difficult to measure and expensive to resolve.
+My research develops numerical methods for these flows and looks for ways to make them cheap enough to study systematically.
 <div class="callout callout-success" markdown="0">
-<div class="callout-title"><i class="fa-solid fa-award callout-icon"></i> Nobel Prize in Physics, 1965</div>
-<p>Awarded the Nobel Prize jointly with Julian Schwinger and Shin'ichiro Tomonaga for fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles.</p>
+<div class="callout-title"><i class="fa-solid fa-award callout-icon"></i> NSF International Research Experience for Students, 2025</div>
+<p>Funded a summer at DLR Cologne developing POD-based dimensionality reduction for compressor cascade optimization, with the Fan and Compressor Group of the Institute of Propulsion Technology.</p>
 </div>
-
-<div class="banner-frame" markdown="0">
-<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" alt="Feynman diagrams" loading="lazy">
-<div class="banner-caption">Examples of Feynman diagrams. Feynman R., <em>The theory of positrons. Phys. Rev.</em> (1949)</div>
-</div>
-
 ### About me
+I am a PhD student in aerospace engineering at Embry-Riddle Aeronautical University, working in the Computational Fluids and Aerodynamics Laboratory. I hold a dual MS from ERAU and Universidad del Valle, where I remain part of the IMPETUS INDOMITUS group. My current work uses the Multi-Component Flow Code to study shock-induced droplet deformation with seeded cavitation nuclei, focusing on how initial perturbations select the surface instability wavelengths that govern aerobreakup.
 
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now at the California Institute of Technology.
+Before this I spent a summer at DLR Cologne as an NSF IRES fellow, and a summer at NASA Ames in the Aerothermodynamics Branch, where I used metric-based mesh adaptation to improve backshell heating estimates for the Dragonfly aeroshell. I completed my BS in aerospace engineering, with a minor in computer science, at the University of Central Florida.
+
+Alongside the physics, I am interested in what makes these simulations tractable at scale — GPU parallelization, reduced-order and data-driven models, and more speculatively, quantum-accelerated approaches to CFD. I am also looking to pair the computational side of my work with experimental experience in high-speed flow facilities and diagnostics.

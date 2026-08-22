@@ -1,27 +1,17 @@
----
-title: "Software"
-layout: gridlay
-sitemap: false
-permalink: /software/
----
-
 ## Software
 
-<div class="section-card">
-<h4>Path Integral Monte Carlo</h4>
-<div class="pub-actions" style="margin-bottom: var(--space-3);">
-<a href="https://example.com" target="_blank" class="btn-pill btn-website">Website</a>
-<a href="https://github.com" target="_blank" class="btn-pill btn-git">Git</a>
-</div>
-<p><strong>Authors:</strong> <em>R. P. Feynman, A. Hibbs</em></p>
-<p>A Monte Carlo simulation code for computing quantum mechanical path integrals in many-body systems. Used to study the lambda transition in liquid helium and other quantum statistical mechanics problems.</p>
-</div>
+#### HyPyRider
 
-<div class="section-card">
-<h4>QED Diagram Calculator</h4>
-<div class="pub-actions" style="margin-bottom: var(--space-3);">
-<a href="https://example.com" target="_blank" class="btn-pill btn-website">Website</a>
-</div>
-<p><strong>Authors:</strong> <em>R. P. Feynman</em></p>
-<p>A tool for systematically enumerating and evaluating Feynman diagrams in quantum electrodynamics calculations, automating the computation of scattering amplitudes to arbitrary order in perturbation theory.</p>
-</div>
+[Git](https://github.com/JuanPabloRoldan/HyPyRider)
+
+**Authors:** *J. P. Roldan*, *C. J. Pasternak*, *D. E. Perito*, *B. Lasher*
+
+A Python-based rapid design and analysis tool for hypersonic waverider geometries, following the design methodology of K. G. Bowcutt's thesis. Generates waverider surfaces from a given shock geometry and evaluates aerodynamic performance for early-stage design studies.
+
+#### PyRPOD
+
+[Git](https://github.com/plume-kit/PyRPOD)
+
+**Authors:** *A. Figueroa-Torres*, *J. P. Roldan*, *N. Palumbo*
+
+A rapid-analysis tool for characterizing thruster configurations of vehicles performing rendezvous, proximity operations, and docking maneuvers. Evaluates plume impingement, fuel usage, and safety metrics using rarefied gas dynamics and gas-surface interaction models. Developed for RPOD scenarios at the lunar Gateway.

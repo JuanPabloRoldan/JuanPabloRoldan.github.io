@@ -1,17 +1,41 @@
+---
+title: "Software"
+layout: gridlay
+sitemap: false
+permalink: /software/
+---
+
 ## Software
 
-#### HyPyRider
+<div class="research-grid">
 
-[Git](https://github.com/JuanPabloRoldan/HyPyRider)
+<div class="research-card">
+<img src="{{ site.url }}{{ site.baseurl }}/images/software/hypyrider.svg" class="research-thumb" alt="Waverider planform generated from a conical shock">
+<div class="research-body">
+<h4 class="research-title">HyPyRider</h4>
+<p class="research-desc">A Python tool for rapid design and analysis of hypersonic waverider geometries, following the design methodology of K. G. Bowcutt. Generates waverider surfaces from a prescribed shock geometry and evaluates aerodynamic performance for early-stage design studies.</p>
+<p class="research-desc"><em>J. P. Roldan, C. J. Pasternak, D. E. Perito, B. Lasher</em></p>
+<p><a href="https://github.com/JuanPabloRoldan/HyPyRider">GitHub</a></p>
+</div>
+</div>
 
-**Authors:** *J. P. Roldan*, *C. J. Pasternak*, *D. E. Perito*, *B. Lasher*
+<div class="research-card">
+<img src="{{ site.url }}{{ site.baseurl }}/images/software/pyrpod.svg" class="research-thumb" alt="Thruster plume impinging on a target surface during docking">
+<div class="research-body">
+<h4 class="research-title">PyRPOD</h4>
+<p class="research-desc">A rapid-analysis tool for characterizing thruster configurations on vehicles performing rendezvous, proximity operations, and docking. Evaluates plume impingement, propellant usage, and safety metrics using rarefied gas dynamics and gas&ndash;surface interaction models, developed for RPOD scenarios at the lunar Gateway.</p>
+<p class="research-desc"><em>A. Figueroa-Torres, J. P. Roldan, N. Palumbo</em></p>
+<p><a href="https://github.com/plume-kit/PyRPOD">GitHub</a></p>
+</div>
+</div>
 
-A Python-based rapid design and analysis tool for hypersonic waverider geometries, following the design methodology of K. G. Bowcutt's thesis. Generates waverider surfaces from a given shock geometry and evaluates aerodynamic performance for early-stage design studies.
+<div class="research-card">
+<img src="{{ site.url }}{{ site.baseurl }}/images/software/mfc.svg" class="research-thumb" alt="Multi-component shock tube with a diffuse material interface">
+<div class="research-body">
+<h4 class="research-title">MFC (contributor)</h4>
+<p class="research-desc">MFC is an open-source, exascale-capable solver for compressible multi-component and multiphase flow. My contributions are to the Euler&ndash;Lagrange bubble model in cylindrical and axisymmetric coordinates &mdash; Jacobian weighting, cylindrical metric terms in the gradient routines, and the axisymmetric source formulation.</p>
+<p><a href="https://github.com/MFlowCode/MFC">GitHub</a></p>
+</div>
+</div>
 
-#### PyRPOD
-
-[Git](https://github.com/plume-kit/PyRPOD)
-
-**Authors:** *A. Figueroa-Torres*, *J. P. Roldan*, *N. Palumbo*
-
-A rapid-analysis tool for characterizing thruster configurations of vehicles performing rendezvous, proximity operations, and docking maneuvers. Evaluates plume impingement, fuel usage, and safety metrics using rarefied gas dynamics and gas-surface interaction models. Developed for RPOD scenarios at the lunar Gateway.
+</div>

@@ -29,13 +29,4 @@ permalink: /software/
 </div>
 </div>
 
-<div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/software/mfc.svg" class="research-thumb" alt="Multi-component shock tube with a diffuse material interface">
-<div class="research-body">
-<h4 class="research-title">MFC (contributor)</h4>
-<p class="research-desc">MFC is an open-source, exascale-capable solver for compressible multi-component and multiphase flow. My contributions are to the Euler&ndash;Lagrange bubble model in cylindrical and axisymmetric coordinates &mdash; Jacobian weighting, cylindrical metric terms in the gradient routines, and the axisymmetric source formulation.</p>
-<p><a href="https://github.com/MFlowCode/MFC">GitHub</a></p>
-</div>
-</div>
-
 </div>

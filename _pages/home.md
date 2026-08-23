@@ -20,7 +20,7 @@ My primary research is on shock-induced droplet deformation and aerobreakup, wit
 I hold a dual M.S. from ERAU and Universidad del Valle (UV), where I remain part of the IMPETUS INDOMITUS team.
 I have performed visiting research at NASA Ames working on hypersonic aerothermodynamics for the Dragonfly aeroshell and at DLR Cologne on reduced-order modeling for compressor cascade optimization.
 <div class="logo-row" markdown="0" style="display:flex; flex-wrap:wrap; align-items:center; gap:2rem; margin:2rem 0;">
-  <a href="https://daytonabeach.erau.edu/" target="_blank" rel="noopener">
+  <a href="https://github.com/CFAL-2-0/CFAL-Documentation" target="_blank" rel="noopener">
     <img src="{{ site.url }}{{ site.baseurl }}/images/cfal.png" alt="Computational Fluids and Aerodynamics Laboratory" style="max-height:70px; width:auto;" loading="lazy">
   </a>
   <a href="https://impetus-indomitus-dev.github.io/team-docs/" target="_blank" rel="noopener">

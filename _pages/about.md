@@ -5,6 +5,15 @@ sitemap: false
 permalink: /about/
 ---
 
+<style>
+.pi-card .pi-links .icon-link {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+}
+.pi-card .pi-links { gap: var(--space-2); }
+</style>
+
 ## About
  
 <div class="section-card">

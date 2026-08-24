@@ -36,7 +36,7 @@ I work on hypersonic and multiphase flows: how liquid structures deform and brea
 </div>
 
 <div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/rarefied_rpod.svg" class="research-thumb" alt="Collisionless molecular trajectories striking a surface">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research/rarefied_rpod.png" class="research-thumb" alt="Collisionless molecular trajectories striking a surface">
 <div class="research-body">
 <h4 class="research-title">Rarefied and Free-Molecular Flows</h4>
 <p class="research-desc">In vacuum, a thruster plume expands without enough intermolecular collisions to behave as a continuum, so what reaches a nearby surface depends on collisionless transport and on how molecules scatter off the wall. I co-developed <a href="https://github.com/plume-kit/PyRPOD">PyRPOD</a>, which characterizes visiting-vehicle thruster configurations by plume impingement, propellant usage, and safety metrics using free-molecular and gas&ndash;surface interaction models, applied to rendezvous and docking at the lunar Gateway.</p>
@@ -52,7 +52,7 @@ I work on hypersonic and multiphase flows: how liquid structures deform and brea
 </div>
 
 <div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/quantumCircuit_1Dpoisson" class="research-thumb" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research/quantumCircuit_1Dpoisson.png" class="research-thumb" alt="">
 <div class="research-body">
 <h4 class="research-title">Heterogeneous Computing for CFD</h4>
 <p class="research-desc">I am building GPU capability in CUDA for the accelerator side, and working through IBM's Qiskit coursework on the quantum side. I led the technical development of a DTRA STTR proposal on air-blast prediction that would offload portions of the CFD workload from classical HPC onto quantum hardware.</p>

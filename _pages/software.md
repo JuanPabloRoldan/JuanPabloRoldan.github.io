@@ -10,7 +10,7 @@ permalink: /software/
 <div class="research-grid">
 
 <div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/software/hypyrider.svg" class="research-thumb" alt="Waverider planform generated from a conical shock">
+<img src="{{ site.url }}{{ site.baseurl }}/images/software/hypyrider.png" class="research-thumb" alt="Generated expansion surface mesh.">
 <div class="research-body">
 <h4 class="research-title">HyPyRider</h4>
 <p class="research-desc">A Python tool for rapid design and analysis of hypersonic waverider geometries, following the design methodology of K. G. Bowcutt. Generates waverider surfaces from a prescribed shock geometry and evaluates aerodynamic performance for early-stage design studies.</p>
@@ -20,7 +20,7 @@ permalink: /software/
 </div>
 
 <div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/software/pyrpod.svg" class="research-thumb" alt="Thruster plume impinging on a target surface during docking">
+<img src="{{ site.url }}{{ site.baseurl }}/images/software/pyrpod.png" class="research-thumb" alt="Thruster plume impinging on a target surface during docking">
 <div class="research-body">
 <h4 class="research-title">PyRPOD</h4>
 <p class="research-desc">A rapid-analysis tool for characterizing thruster configurations on vehicles performing rendezvous, proximity operations, and docking. Evaluates plume impingement, propellant usage, and safety metrics using rarefied gas dynamics and gas&ndash;surface interaction models, developed for RPOD scenarios at the lunar Gateway.</p>

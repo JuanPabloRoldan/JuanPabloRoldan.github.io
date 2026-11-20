@@ -36,6 +36,14 @@ I work on hypersonic and multiphase flows: how liquid structures deform and brea
 </div>
 
 <div class="research-card">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research/srp_tunnel.png" class="research-thumb" alt="Mach contours of retro-plumes from a sphere-cone model in a supersonic wind tunnel">
+<div class="research-body">
+<h4 class="research-title">Supersonic Retropropulsion Testing</h4>
+<p class="research-desc">Landing heavy payloads on Mars means firing engines into a supersonic freestream. The retro-plumes push the bow shock far upstream, and in a finite wind-tunnel test section that shock and the subsonic region behind it can reach the walls and contaminate the measurement. For a NASA proposal built around the FSU Polysonic wind tunnel, I ran three-dimensional inviscid simulations in SU2 of a 70&deg; sphere-cone model with eight scarfed peripheral nozzles at Mach 2, comparing each tunnel case against free flight at the same thrust coefficient, to map the largest model size and thrust coefficient the facility can take before wall interference sets in.</p>
+</div>
+</div>
+
+<div class="research-card">
 <img src="{{ site.url }}{{ site.baseurl }}/images/research/rarefied_rpod.png" class="research-thumb" alt="Collisionless molecular trajectories striking a surface">
 <div class="research-body">
 <h4 class="research-title">Rarefied and Free-Molecular Flows</h4>
